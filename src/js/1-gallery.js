@@ -1,8 +1,6 @@
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-new SimpleLightbox('.some-element a', { /* options */ });
-
 const images = [
   {
     preview:
@@ -95,6 +93,5 @@ renderImages();
 
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
-  captionPosition: 'bottom',
   captionDelay: 250,
 });
